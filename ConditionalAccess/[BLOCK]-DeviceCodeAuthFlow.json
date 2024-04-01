@@ -1,0 +1,52 @@
+  {
+    "sessionControls": null,
+    "conditions": {
+      "platforms": null,
+      "userRiskLevels": [],
+      "clientApplications": null,
+      "times": null,
+      "deviceStates": null,
+      "users": {
+        "includeGuestsOrExternalUsers": null,
+        "includeGroups": [],
+        "excludeGuestsOrExternalUsers": null,
+        "includeUsers": [
+          "All"
+        ],
+        "excludeUsers": [],
+		"excludeGroups": [],
+        "excludeRoles": [],
+        "includeRoles": []
+      },
+      "devices": null,
+      "locations": null,
+      "authenticationFlows": {
+        "transferMethods": "deviceCodeFlow,authenticationTransfer"
+      },
+      "clientAppTypes": [
+        "all"
+      ],
+      "applications": {
+        "applicationFilter": null,
+        "excludeApplications": [],
+        "includeUserActions": [],
+        "includeApplications": [
+          "All"
+        ],
+        "includeAuthenticationContextClassReferences": []
+      },
+      "signInRiskLevels": []
+    },
+  "displayName": "[BLOCK] - Device Code Auth Flow",
+    "state": "enabled",
+    "templateId": null,
+    "grantControls": {
+      "operator": "OR",
+      "builtInControls": [
+        "block"
+      ],
+      "customAuthenticationFactors": [],
+      "termsOfUse": [],
+      "authenticationStrength": null
+    }
+  }
