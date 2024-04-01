@@ -1,0 +1,50 @@
+  {
+    "conditions": {
+      "platforms": null,
+      "userRiskLevels": [],
+      "clientApplications": null,
+      "times": null,
+      "deviceStates": null,
+      "users": {
+        "includeGuestsOrExternalUsers": null,
+        "includeGroups": [],
+        "excludeGuestsOrExternalUsers": null,
+        "includeUsers": [
+          "All"
+        ],
+        "excludeUsers": [],
+        "excludeGroups": [],
+        "excludeRoles": [
+          "d29b2b05-8046-44ba-8758-1e26182fcf32"
+        ],
+        "includeRoles": []
+      },
+      "devices": null,
+      "locations": null,
+      "clientAppTypes": [
+        "all"
+      ],
+      "applications": {
+        "applicationFilter": null,
+        "excludeApplications": [],
+        "includeUserActions": [],
+        "includeApplications": [
+          "All"
+        ],
+        "includeAuthenticationContextClassReferences": []
+      },
+      "signInRiskLevels": []
+    },
+    "displayName": "[GRANT] - MFA for All Users",
+    "state": "enabled",
+    "templateId": null,
+    "grantControls": {
+      "operator": "OR",
+      "builtInControls": [],
+      "customAuthenticationFactors": [],
+      "termsOfUse": [],
+      "authenticationStrength": {
+        "id": "00000000-0000-0000-0000-000000000002"
+      }
+    }
+  }
