@@ -1,0 +1,47 @@
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#conditionalAccess/policies/$entity",
+     "id": "b3f1298e-8e93-49af-bdbf-94cf7d453ca3",
+    "displayName": "GLOBAL - 160 - [BLOCK] - High-Risk Users",
+    "createdDateTime": "2020-04-01T00:55:12.9571747Z",
+    "modifiedDateTime": null,
+    "state": "enabled",
+    "sessionControls": null,
+    "conditions": {
+        "userRiskLevels": [
+			"high"
+		],
+        "signInRiskLevels": [],
+        "clientAppTypes": [
+            "all"
+        ],
+        "platforms": null,
+        "locations": null,
+        "times": null,
+        "applications": {
+            "includeApplications": [
+                "all"
+            ],
+            "excludeApplications": [],
+            "includeUserActions": [],
+            "includeProtectionLevels": []
+        },
+        "users": {
+            "includeUsers": [
+				"all"
+			],
+            "excludeUsers": [],
+            "includeGroups": [],
+            "excludeGroups": [],
+            "includeRoles": [],
+            "excludeRoles": []
+        }
+    },
+    "grantControls": {
+        "operator": "OR",
+        "builtInControls": [
+            "block"
+        ],
+        "customAuthenticationFactors": [],
+        "termsOfUse": []
+    }
+}

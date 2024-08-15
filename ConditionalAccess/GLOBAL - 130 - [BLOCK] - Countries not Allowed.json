@@ -1,0 +1,53 @@
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#conditionalAccess/policies/$entity",
+     "id": "b3f1298e-8e93-49af-bdbf-94cf7d453ca3",
+    "displayName": "GLOBAL - 130 - [BLOCK] - Countries not Allowed",
+    "createdDateTime": "2020-04-01T00:55:12.9571747Z",
+    "modifiedDateTime": null,
+    "state": "enabled",
+    "sessionControls": null,
+    "conditions": {
+        "userRiskLevels": [],
+        "signInRiskLevels": [],
+        "clientAppTypes": [
+            "All"
+        ],
+        "platforms": null,
+        "locations": {
+        "excludeLocations": [
+          "SUBSTITUIR POR ID DE LOCAL NOMEADO DE PAÍSES PERMITIDOS"
+		  /*Utilize comando "https://graph.microsoft.com/v1.0/identity/conditionalAccess/namedLocations/" como GET no Microsoft Graph Explore para idetificar o ID da localização nomeada*/
+        ],
+        "includeLocations": [
+          "All"
+        ]
+		},
+        "times": null,
+        "applications": {
+            "includeApplications": [
+                "all"
+            ],
+            "excludeApplications": [],
+            "includeUserActions": [],
+            "includeProtectionLevels": []
+        },
+        "users": {
+            "includeUsers": [
+				"all"
+			],
+            "excludeUsers": [],
+            "includeGroups": [],
+            "excludeGroups": [],
+            "includeRoles": [],
+            "excludeRoles": []
+        }
+    },
+    "grantControls": {
+        "operator": "OR",
+        "builtInControls": [
+            "block"
+        ],
+        "customAuthenticationFactors": [],
+        "termsOfUse": []
+    }
+}
