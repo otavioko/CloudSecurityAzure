@@ -10,3 +10,6 @@ Lembre-se que demonstrar este material como de sua propriedade é anti-etico, il
 
 [![Gmail Badge](https://img.shields.io/badge/-otavio.luiz.ti@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:otavio.luiz.ti@gmail.com)](mailto:otavio.luiz.ti@gmail.com)
 [![Linkedin Badge](https://img.shields.io/badge/-OtavioLuiz-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/otavioko/)](https://www.linkedin.com/in/otavioko/)
+
+# Versões do README
+[PT-BR](./README.md) | [EN-US](./README-en.md)
